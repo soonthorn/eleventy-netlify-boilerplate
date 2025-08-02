@@ -4,7 +4,7 @@
 backend:
   name: github
   repo: soonthorn/eleventy-netlify-boilerplate
-  branch: main
+  branch: master
   auth_scope: repo
 
 
