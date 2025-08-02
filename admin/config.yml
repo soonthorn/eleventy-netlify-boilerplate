@@ -2,8 +2,13 @@
 
 # The backend option specifies how to access the content for your site
 backend:
-  name: git-gateway
-  branch: master # The branch to update (optional; defaults to master)
+  name: auth0
+  domain: "dev-j77uprxcxeej74h4.auth0.com"
+  client_id: "5nGyLFB7fYZrN4AM8VHUoEHaRLJfKwib"
+  branch: master
+
+  #name: git-gateway
+  #branch: master # The branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
 # publish_mode: editorial_workflow
